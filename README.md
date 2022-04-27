@@ -32,7 +32,7 @@ The code for this project shall be uploaded soon.
 If you find this article useful in your research, please consider citing:
 
 ```
-@inproceedings{sketch3t,
+@inproceedings{sain2022sketch3t,
 author = {Aneeshan Sain and Ayan Kumar Bhunia and Vaishnav Potlapalli and Pinaki Nath Chowdhury and Tao Xiang and Yi-Zhe Song},
 title = {Sketch3T: Test-Time Training for Zero-Shot SBIR},
 booktitle = {CVPR},
