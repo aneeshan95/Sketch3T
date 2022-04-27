@@ -13,7 +13,7 @@ Normal ZS-SBIR methods obtain lower accuracies as they retrieve from unseen data
 Our Framework. Our model is trained (left) on primary and auxiliary tasks, meta-learning stroke-weights. During inference (right) the model first updates (optionally) on the test-set photo distribution, followed by sketch-specific test-time training for retrieval.
 
 ## Implementation
-* We use TUBerlin (ext) and Sketchy(ext) for categorical SBIR. Please read the [paper](https://arxiv.org/pdf/2203.14691/pdf) for details.
+* We used TUBerlin (ext) and Sketchy(ext) for categorical SBIR. Please read the [paper](https://arxiv.org/pdf/2203.14691/pdf) for details.
 
 # Results
 ![](./Images/experiments.png)
