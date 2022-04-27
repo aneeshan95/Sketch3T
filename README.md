@@ -6,10 +6,12 @@ Zero-shot sketch-based image retrieval typically asks for a trained model to be 
 
 # Illustration
 ![](./Images/opening.png)
+
 Normal ZS-SBIR methods obtain lower accuracies as they retrieve from unseen data using model weights trained on seen data. During inference, our model (Sketch3T) adapts to the test distribution via an auxiliary task, before retrieval, scoring better.
  
 # Framework
 ![](./Images/framework.png)
+
 Our Framework. Our model is trained (left) on primary and auxiliary tasks, meta-learning stroke-weights. During inference (right) the model first updates (optionally) on the test-set photo distribution, followed by sketch-specific test-time training for retrieval.
 
 ## Implementation
